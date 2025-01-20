@@ -13,7 +13,7 @@ export default function Home() {
     setTimeout(() => {
       setAllComics(comicsData); // Carregar os dados das HQs
       setLoading(false);
-    }, 500); // Delay de 1 segundo para simular o carregamento
+    }, 1000); // Delay de 1 segundo para simular o carregamento
   }, []);
 
 
