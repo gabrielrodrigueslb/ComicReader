@@ -1,0 +1,76 @@
+.comic-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0px auto;
+  max-width: 1280px;
+  height: 100%;
+
+  .img-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+    width: 30vh;
+
+    img{
+      width: 100%;
+    }
+  }
+
+}
+
+.card-infos{
+  display: flex;
+  padding-inline: 30px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 30px;
+
+  .title{
+    text-align: center;
+    font-size: 1.25rem;
+  }
+
+  .author{
+    font-size: 1rem;
+  }
+
+  .description{
+    font-size: 1rem;
+    text-align: justify;
+    max-width: 600px;
+  }
+
+  .button{
+    margin-top:15px !important;
+    padding: 10px 50px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    border-radius: 15px;
+    background: #46B8FF;
+  }
+
+}
+
+  .btn-back{
+    margin: 0.75rem 0 0.75rem 20px ;
+    display: flex;
+    max-width: 30px;
+    font-size: 1.35rem;
+    color: #010616;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+  }
+
+
+@media (max-width: 768px) {
+  .comic-container{
+    flex-direction: column;
+  }
+}

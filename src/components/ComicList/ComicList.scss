@@ -1,0 +1,24 @@
+.comic-list{
+    display: flex;
+    flex-direction: column;
+    padding-inline: 30px;
+    margin: 0 auto;
+    margin-top: 15px;
+    gap: 20px;
+
+    .title-category{
+        font-size: 1.5rem;
+        color: #46B8FF;
+    }
+}
+
+.container-list{
+    padding-inline: 30px;
+    max-width: 1280px;
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+    overflow: auto;
+}
+
+

@@ -1,0 +1,49 @@
+.header-bg {
+  background: #010616;
+  border-radius: 0 0 30px 30px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 30px;
+  align-items: center;
+}
+
+.header-textos h2 {
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.25rem;
+  width: 800px; /* Define a largura do elemento */
+  white-space: nowrap; /* Impede que o texto quebre em várias linhas */
+  overflow: hidden; /* Oculta o texto que ultrapassa o limite do espaço */
+  text-overflow: ellipsis;
+}
+.greetings {
+  display: block; /* Garante que o elemento seja exibido */
+  color: #fff; /* Cor do texto */
+  font-size: 1.5rem; /* Ajuste no tamanho da fonte */
+}
+
+.header-textos p {
+  color: #dbd9d9;
+  font-weight: 400;
+  font-size: 0.875rem;
+}
+
+.foto-perfil {
+  border-radius: 50%;
+  width: 55px;
+  height: 100%;
+}
+
+
+
+@media (max-width: 768px) {
+    .header-textos h2 {
+        width: 215px; /* Define a largura do elemento */
+        white-space: nowrap; /* Impede que o texto quebre em várias linhas */
+        overflow: hidden; /* Oculta o texto que ultrapassa o limite do espaço */
+        text-overflow: ellipsis;
+      }
+}

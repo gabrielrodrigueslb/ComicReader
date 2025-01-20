@@ -1,0 +1,29 @@
+.comic-card{
+
+    width: 150px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .img-container img{
+        max-width: 100%;
+        border-radius: 10px;
+    }
+
+    .card-infos{
+        max-width: 140px;
+        margin-bottom: 0;
+       
+
+        .title{
+            font-size: 1rem;
+            max-width: 100%; /* Define a largura do elemento */
+            box-sizing: border-box;
+            white-space: nowrap; /* Impede que o texto quebre em várias linhas */
+            overflow: hidden; /* Oculta o texto que ultrapassa o limite do espaço */
+            text-overflow: ellipsis;
+        }
+    }
+
+}
